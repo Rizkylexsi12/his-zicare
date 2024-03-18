@@ -1,0 +1,18 @@
+{
+  "name": "his_zicare",
+  "version": "1.0.0",
+  "description": "this is for automation testing his zi.care",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "lexsi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/e2e/step_definitions/"
+  }
+}
